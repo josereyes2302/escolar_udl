@@ -1,0 +1,142 @@
+body{
+    margin: 20px;
+    padding: 15px;
+    background-color: #F2C9D1;
+}
+ol, li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.Header{
+	background-color: #F2DDD0;
+    color: #F25790;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.Header ol{
+    display: flex;
+    height: inherit;
+}
+.Header a {
+    color: #F25790;
+    text-decoration: none;
+    height: inherit;
+    padding: 0 10px;
+  }
+nav{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: #F25790;
+    font-style: none;
+    list-style-type: none;
+}
+.menu { 
+    height: inherit;
+  }
+  
+
+h1{
+	color: #F25790;
+	font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+    font-family: 'Bad Script', cursive;
+    margin: 0;
+}
+.Hero{
+    height: 300px;
+    background-image: url('../images/foto9.jpg');
+    background-color: #F2BBC5;
+    background-size: 450px 400px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+
+    
+}
+.Title_Section{
+    padding: 20px;
+}
+.Historia{
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+    
+    justify-content: center;
+    background-color: #F2DDD0;
+}
+
+.Article_historia{
+    padding: 20px;
+    margin: 15px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+   
+}
+.Image_Historia{
+   display: inline-block;
+   justify-content: right;
+}
+.Social{
+    background-color: #F2BBC5;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Social_link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 1px solid white;
+}
+
+h2{
+    color: #F25790;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    font-family: 'Courgette', cursive
+}
+
+h3{
+    font-family: 'Bad Script', cursive;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: #F25790;
+}
+
+
+h6{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: #F25790;
+}
+footer{
+    background-color: #F28F79;
+}
+p{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+  color: #F28DA8;
+  
+}
+h4{
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+}
